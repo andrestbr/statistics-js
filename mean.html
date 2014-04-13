@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en"> 
+  <head>
+    <meta charset = "utf-8">
+    <title>Mean</title> 
+    <meta name="description" content="Implementation of the statistical concept mean">
+        
+    <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="normalize.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="mean.css">
+
+    <script src="mean.js"></script> 
+  </head>
+    
+  <body>
+    <header role="banner">
+      <h1>Mean</h1> 
+      <nav role="navigation"><!-- insert main navigation of the page here --></nav>      
+    </header>
+        
+    <main role="main">
+      <section>
+        
+        <article class="grid8">
+          <form>
+            <input type="number" id="values">
+            <input type="button" id="addValues" value="Enter a value">
+          </form>
+          
+          <div id="showValues">
+              <!-- values are displayed here -->
+          </div>    
+        </article>
+        
+        <article class="grid8">
+          <form>
+            <input type="button" id="sumValues" value="Step 1">
+            <span>sum the values</span>
+          </form> 
+          
+          <div id="showSum">
+              <!-- the sum of values is displayed here -->
+          </div>     
+        </article>
+        
+        <article class="grid8">
+          <form>
+            <input type="button" id="countValues" value="Step 2">
+            <span>count the number of values</span>
+          </form> 
+            
+          <div id="showCount">
+              <!-- the number of values is displayed here -->
+          </div> 
+        </article>  
+        
+        <article class="grid8">
+          <form>
+            <input type="button" id="divideValues" value="Step 3">
+              <span>divide the sum by the number of values</span>
+          </form> 
+            
+          <div id="showDivision">
+              <!-- the division of values is displayed here -->
+          </div> 
+        </article>  
+          
+      </section>
+    </main>
+  
+    <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
+  </body>
+  
+</html>
