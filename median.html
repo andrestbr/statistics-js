@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en"> 
+  <head>
+    <meta charset = "utf-8">
+    <title>Median</title> 
+    <meta name="description" content="Implementation of the statistical concept median">
+        
+    <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="normalize.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="mean.css"> <!-- erstmal mean.css -->
+
+    <script src="median.js"></script> <!-- or global statistics-js.js? -->
+  </head>
+    
+  <body>
+    <header role="banner">
+      <h1 class="grid12">Median</h1> 
+      <nav role="navigation"><!-- insert main navigation of the page here --></nav>      
+    </header>
+        
+    <main role="main">
+      <section>
+        
+        <article class="grid8">
+          <form>
+            <input type="number" id="values">
+            <input type="button" id="addValues" value="Enter a value">
+          </form>
+          
+          <div id="showValues">
+              <!-- values are displayed here -->
+          </div>    
+        </article>
+        
+        <!-----------------------------------------------------------------------------------------
+            Step 1
+        ------------------------------------------------------------------------------------------>  
+          
+        <article class="grid8">
+          <form>
+            <input type="button" id="countValues" value="Step 1">
+            <span>count the number of values</span>
+          </form> 
+          
+          <div id="showCount">
+              <!-- the number of values is displayed here -->
+          </div>     
+        </article>
+        
+        <!-----------------------------------------------------------------------------------------
+            Step 2
+        ------------------------------------------------------------------------------------------>  
+        
+        <article class="grid8">
+          <form>
+            <input type="button" id="checkEven" value="Step 2">
+            <span>check if the number of values is odd or even</span>
+          </form> 
+            
+          <div id="showEven">
+              <!-- "odd" or "even" is displayed here -->
+          </div> 
+        </article>  
+          
+        <!-----------------------------------------------------------------------------------------
+            Step 3
+        ------------------------------------------------------------------------------------------>
+        
+        <article class="grid8">
+          <form>
+            <input type="button" id="sortValues" value="Step 3">
+              <span>sort the values in increasing order</span>
+          </form> 
+            
+          <div id="showSorted">
+              <!-- the sorted values are displayed here -->
+          </div> 
+        </article>  
+
+        <!-----------------------------------------------------------------------------------------
+            Step 4
+        ------------------------------------------------------------------------------------------>
+        
+        <article class="grid8">
+          <form>
+            <input type="button" id="calculateMedian" value="Step 4">
+              <span id="step4">pick the central value</span>
+          </form> 
+            
+          <div id="showMedian">
+              <!-- the median is displayed here -->
+          </div> 
+        </article>  
+          
+          
+      </section>
+    </main>
+  
+  </body>
+  
+</html>

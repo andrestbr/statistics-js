@@ -26,6 +26,8 @@ article {
 
 div {
   font-family: 'DejaVu Sans Mono', 'Droid Sans Mono', Monaco, monospace;
+  overflow: auto;
+
 }
 
 div, form, input {
